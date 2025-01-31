@@ -2,11 +2,11 @@
 
 int main()
 {
-    int total;
+    int total = 0;
     int count = 0;
     int number = 1;
 
-    while (count <= 15) {
+    while (count < 15) {
         total += number;
         number += 2;
         count += 1;
