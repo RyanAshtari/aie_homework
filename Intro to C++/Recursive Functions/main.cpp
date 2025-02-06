@@ -22,6 +22,7 @@ void PrintDirectory(string directory, int depth)
 
     hFind = FindFirstFileA(searchPath.c_str(), &data);
     if (hFind != INVALID_HANDLE_VALUE) {
+        int dirSize = 0;
         do 
         {
             // don't process the '.' or '..' entries
@@ -29,6 +30,8 @@ void PrintDirectory(string directory, int depth)
                 continue;
 
                 std::cout << padding << data.cFileName << std::endl;
+            
+                dirSize += 1;
 
                 if ((data.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY) == FILE_ATTRIBUTE_DIRECTORY)
                 {
@@ -37,5 +40,6 @@ void PrintDirectory(string directory, int depth)
         } 
         while (FindNextFileA(hFind, &data));
         FindClose(hFind);
+        std::cout << dirSize << "\n";
     }
 }
