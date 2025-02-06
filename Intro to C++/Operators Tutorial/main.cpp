@@ -9,7 +9,7 @@ void main()
     std::cin >> first;
 
     if (std::cin.fail()) {
-        std::cout << "You didn't enter an integer. We'll just use '5' instead." << std::endl;
+        std::cout << "You didn't enter an Integer. We'll just use '5' instead." << std::endl;
         first = 5;
         std::cin.clear();
         std::cin.ignore(std::cin.rdbuf()->in_avail());
