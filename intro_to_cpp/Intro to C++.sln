@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Conditionals Exercises", "C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursive Functions", "Recursive Functions\Recursive Functions.vcxproj", "{39A13E43-2CA8-413C-8F64-A866F6224A6F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Git Branching", "Git Branching\Git Branching.vcxproj", "{3FBEDFD8-E330-4706-8435-0C5693634D06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{39A13E43-2CA8-413C-8F64-A866F6224A6F}.Release|x64.Build.0 = Release|x64
 		{39A13E43-2CA8-413C-8F64-A866F6224A6F}.Release|x86.ActiveCfg = Release|Win32
 		{39A13E43-2CA8-413C-8F64-A866F6224A6F}.Release|x86.Build.0 = Release|Win32
+		{3FBEDFD8-E330-4706-8435-0C5693634D06}.Debug|x64.ActiveCfg = Debug|x64
+		{3FBEDFD8-E330-4706-8435-0C5693634D06}.Debug|x64.Build.0 = Debug|x64
+		{3FBEDFD8-E330-4706-8435-0C5693634D06}.Debug|x86.ActiveCfg = Debug|Win32
+		{3FBEDFD8-E330-4706-8435-0C5693634D06}.Debug|x86.Build.0 = Debug|Win32
+		{3FBEDFD8-E330-4706-8435-0C5693634D06}.Release|x64.ActiveCfg = Release|x64
+		{3FBEDFD8-E330-4706-8435-0C5693634D06}.Release|x64.Build.0 = Release|x64
+		{3FBEDFD8-E330-4706-8435-0C5693634D06}.Release|x86.ActiveCfg = Release|Win32
+		{3FBEDFD8-E330-4706-8435-0C5693634D06}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
