@@ -33,9 +33,9 @@ public:
 	bool operator<(const String& _str);
 
 private:
-	/*
-	
-	 Put your internal data structures and members here
+	char* m_Data;
+	size_t m_Length;
+	size_t m_Capacity;
 
-	*/
+	void EnsureCapacity(size_t required);
 };
