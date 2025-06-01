@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLib", "MathLib\MathLib.vcxproj", "{887DDD15-8416-44B3-8C1E-5F97686A1E7D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibraryTests", "MathLibTests\MathLibraryTests.vcxproj", "{B8C3FDD1-D9F9-4745-A1D8-C843C2F6309E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{887DDD15-8416-44B3-8C1E-5F97686A1E7D} = {887DDD15-8416-44B3-8C1E-5F97686A1E7D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{887DDD15-8416-44B3-8C1E-5F97686A1E7D}.Debug|x64.ActiveCfg = Debug|x64
+		{887DDD15-8416-44B3-8C1E-5F97686A1E7D}.Debug|x64.Build.0 = Debug|x64
+		{887DDD15-8416-44B3-8C1E-5F97686A1E7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{887DDD15-8416-44B3-8C1E-5F97686A1E7D}.Debug|x86.Build.0 = Debug|Win32
+		{887DDD15-8416-44B3-8C1E-5F97686A1E7D}.Release|x64.ActiveCfg = Release|x64
+		{887DDD15-8416-44B3-8C1E-5F97686A1E7D}.Release|x64.Build.0 = Release|x64
+		{887DDD15-8416-44B3-8C1E-5F97686A1E7D}.Release|x86.ActiveCfg = Release|Win32
+		{887DDD15-8416-44B3-8C1E-5F97686A1E7D}.Release|x86.Build.0 = Release|Win32
+		{B8C3FDD1-D9F9-4745-A1D8-C843C2F6309E}.Debug|x64.ActiveCfg = Debug|x64
+		{B8C3FDD1-D9F9-4745-A1D8-C843C2F6309E}.Debug|x64.Build.0 = Debug|x64
+		{B8C3FDD1-D9F9-4745-A1D8-C843C2F6309E}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8C3FDD1-D9F9-4745-A1D8-C843C2F6309E}.Debug|x86.Build.0 = Debug|Win32
+		{B8C3FDD1-D9F9-4745-A1D8-C843C2F6309E}.Release|x64.ActiveCfg = Release|x64
+		{B8C3FDD1-D9F9-4745-A1D8-C843C2F6309E}.Release|x64.Build.0 = Release|x64
+		{B8C3FDD1-D9F9-4745-A1D8-C843C2F6309E}.Release|x86.ActiveCfg = Release|Win32
+		{B8C3FDD1-D9F9-4745-A1D8-C843C2F6309E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0DFAAD1-16DB-45CB-AE73-C668EB9C51A8}
+	EndGlobalSection
+EndGlobal
